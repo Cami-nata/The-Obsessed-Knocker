@@ -1,0 +1,97 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "scary:knocker",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/knocker/knocker",
+        "angry": "textures/entity/knocker/knockerx",
+        "theft": "textures/entity/knocker/knockert",
+        "pyro": "textures/entity/knocker/knockers",
+        "psy": "textures/entity/knocker/knockerm",
+        "invisible": "textures/entity/knocker/invisible"
+      },
+      "geometry": {
+        "default": "geometry.knocker"
+      },
+      "scripts": {
+        "scale": "0.9375",
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ],
+        "animate": [
+          "root",
+          {
+            "stutter": "query.is_sheared"
+          },
+          "look",
+          {
+            "sneaking": "query.is_saddled && !query.is_ignited || query.is_saddled && query.is_ignited"
+          },
+          {
+            "crawl": "query.is_ignited && query.is_saddled && query.modified_move_speed < 0.5 || query.is_ignited && !query.is_saddled && query.modified_move_speed < 0.5"
+          },
+          {
+            "crawl_legs": "query.is_ignited && query.is_saddled && query.modified_move_speed < 0.5 || query.is_ignited && !query.is_saddled && query.modified_move_speed < 0.5"
+          },
+          {
+            "fix": "query.is_ignited && query.is_saddled && query.modified_move_speed < 0.5 || query.is_ignited && !query.is_saddled && query.modified_move_speed < 0.5"
+          },
+          "base_controller",
+          {
+            "swimming": "query.is_in_water && query.modified_move_speed > 0.02"
+          }
+        ]
+      },
+      "animations": {
+        "root": "controller.animation.hunter.root",
+        "humanoid_base_pose": "animation.humanoid.base_pose",
+        "base_controller": "controller.animation.player.base",
+        "hudplayer": "controller.animation.player.hudplayer",
+        "look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+        "move": "animation.humanoid.move",
+        "move.arms": "animation.player.move.arms",
+        "move.legs": "animation.player.move.legs",
+        "riding.arms": "animation.humanoid.riding.arms",
+        "riding.legs": "animation.humanoid.riding.legs",
+        "holding": "animation.humanoid.holding",
+        "brandish_spear": "animation.humanoid.brandish_spear",
+        "charging": "animation.humanoid.charging",
+        "attack.rotations": "animation.humanoid.attack.rotations",
+        "sneaking": "animation.player.sneaking",
+        "bob": "animation.player.bob",
+        "damage_nearby_mobs": "animation.humanoid.damage_nearby_mobs",
+        "swimming": "animation.drowned.swimming.v1.0",
+        "use_item_progress": "animation.humanoid.use_item_progress",
+        "stutter": "animation.knocker.stutter",
+        "look": "animation.knocker.look",
+        "crawl": "animation.player.crawl",
+        "fix": "animation.knocker.crawl",
+        "crawl_legs": "animation.player.crawl.legs",
+        "look_at_target": "animation.humanoid.look_at_target.default",
+        "cape": "animation.player.cape",
+        "attack.positions": "animation.humanoid.attack.positions",
+        "holding_spyglass": "animation.humanoid.holding_spyglass",
+        "crossbow_controller": "controller.animation.player.crossbow",
+        "shield_block_main_hand": "animation.humanoid.shield_block_main_hand",
+        "shield_block_off_hand": "animation.humanoid.shield_block_off_hand",
+        "sleeping": "animation.humanoid.sleeping",
+        "third_person_bow_equipped": "animation.humanoid.bow_equipped",
+        "tooting_goat_horn": "animation.humanoid.tooting_goat_horn"
+      },
+      "render_controllers": [
+        "controller.render.knocker"
+      ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "base_color": "#000000",
+        "overlay_color": "#ffffff"
+      }
+    }
+  }
+}

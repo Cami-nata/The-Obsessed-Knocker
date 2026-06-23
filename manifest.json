@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "\u00a77by Poosh \u00a78\u2022 Original concept by \u00a76m_productions15 on Java",
+    "name": "\u00a74The Obsessed Knocker",
+    "uuid": "6cc8a963-ee67-44b1-8693-1778ee9d9b75",
+    "version": [0, 1, 2],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "description": "\u00a77by Poosh \u00a78\u2022 Original concept by \u00a76m_productions15 on Java",
+      "type": "resources",
+      "uuid": "fc1fbbd9-bf41-42f1-a0fe-ee8dec5247e3",
+      "version": [0, 1, 2]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "9c615ee8-11ea-4d00-81be-542fd0c27705",
+      "version": [1, 1, 2]
+    }
+  ],
+  "capabilities": ["pbr"]
+}

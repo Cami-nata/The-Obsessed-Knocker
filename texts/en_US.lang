@@ -1,0 +1,5 @@
+entity.scary:knocker.name=The Knocker
+entity.scary:knockerx.name=knocker
+entity.scary:knockerd.name=knocker
+entity.scary:knockerh.name=knocker
+item.spawn_egg.entity.scary:knocker.name=Spawn §4The Knocker

@@ -1,0 +1,55 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.knocker.stutter": {
+      "bones": {
+        "head": {
+          "position": [
+            "-0.17 + (0.17 * math.cos(query.life_time * 2810))",
+            "-0.20 + (0.20 * math.cos(query.life_time * 2860))",
+            "-0.15 + (0.15 * math.cos(query.life_time * 2830))"
+          ]
+        },
+        "root": {
+          "position": [
+            "-0.10 + (0.10 * math.cos(query.life_time * 1810))",
+            "-0.20 + (0.20 * math.cos(query.life_time * 1860))",
+            "-0.17 + (0.17 * math.cos(query.life_time * 1830))"
+          ]
+        }
+      },
+      "loop": true
+    },
+    "animation.knocker.look": {
+      "bones": {
+        "head": {
+          "rotation": [
+            "(query.target_x_rotation / 2.22)",
+            "(query.target_y_rotation / 2.22)",
+            "(query.target_y_rotation / 2.22)"
+          ]
+        }
+      },
+      "loop": true
+    },
+    "animation.knocker.crawl": {
+      "bones": {
+        "root": {
+          "rotation": [
+            75,
+            0,
+            0
+          ]
+        },
+        "head": {
+          "rotation": [
+            "query.target_x_rotation",
+            "query.target_y_rotation",
+            "query.target_y_rotation"
+          ]
+        }
+      },
+      "loop": true
+    }
+  }
+}

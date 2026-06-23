@@ -1,0 +1,130 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "scary:knocker": {
+        "volume": 75.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": {
+            "sound": "mob.scary_knocker.breath",
+            "volume": [
+              0.6,
+              0.8
+            ],
+            "pitch": [
+              1,
+              1
+            ]
+          },
+          "attack": {
+            "sound": "mob.scary_knocker.idle",
+            "volume": [
+              0.8,
+              1.0
+            ],
+            "pitch": [
+              1.0,
+              1.0
+            ]
+          }
+        }
+      },
+      "scary:knockerx": {
+        "volume": 75.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": {
+            "sound": "mob.scary_knocker.breath",
+            "volume": [
+              0.6,
+              0.8
+            ],
+            "pitch": [
+              1,
+              1
+            ]
+          },
+          "attack": {
+            "sound": "mob.scary_knocker.idle",
+            "volume": [
+              0.8,
+              1.0
+            ],
+            "pitch": [
+              1.0,
+              1.0
+            ]
+          }
+        }
+      },
+      "scary:knockerd": {
+        "volume": 75.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": {
+            "sound": "mob.scary_knocker.breath",
+            "volume": [
+              0.6,
+              0.8
+            ],
+            "pitch": [
+              1,
+              1
+            ]
+          },
+          "attack": {
+            "sound": "mob.scary_knocker.idle",
+            "volume": [
+              0.8,
+              1.0
+            ],
+            "pitch": [
+              1.0,
+              1.0
+            ]
+          }
+        }
+      },
+      "scary:knockerh": {
+        "volume": 75.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": {
+            "sound": "mob.scary_knocker.breath",
+            "volume": [
+              0.6,
+              0.8
+            ],
+            "pitch": [
+              1,
+              1
+            ]
+          },
+          "attack": {
+            "sound": "mob.scary_knocker.idle",
+            "volume": [
+              0.8,
+              1.0
+            ],
+            "pitch": [
+              1.0,
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

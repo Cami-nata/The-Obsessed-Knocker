@@ -1,0 +1,89 @@
+{
+  "mob.scary_knocker.idle": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/mob/scary_knocker/idle/idle1",
+      "sounds/mob/scary_knocker/idle/idle2",
+      "sounds/mob/scary_knocker/idle/idle3"
+    ]
+  },
+  "mob.scary_knocker.spawn": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/mob/scary_knocker/idle/spawn1",
+      "sounds/mob/scary_knocker/idle/spawn2"
+    ]
+  },
+  "mob.scary_knocker.breath": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/mob/scary_knocker/idle/breath",
+      "sounds/mob/scary_knocker/idle/breath",
+      "sounds/mob/scary_knocker/idle/breath",
+      "sounds/mob/scary_knocker/idle/breath",
+      "sounds/mob/scary_knocker/idle/breath",
+      "sounds/mob/scary_knocker/idle/breath",
+      "sounds/mob/scary_knocker/idle/breath",
+      "sounds/mob/scary_knocker/idle/whistle1",
+      "sounds/mob/scary_knocker/idle/whistle2",
+      "sounds/mob/scary_knocker/idle/whistle3",
+      "sounds/mob/scary_knocker/idle/whistle4",
+      "sounds/mob/scary_knocker/idle/whistle5",
+      "sounds/mob/scary_knocker/idle/whistle6",
+      "sounds/mob/scary_knocker/idle/whistle7",
+      "sounds/mob/scary_knocker/idle/whistle8"
+    ]
+  },
+  "mob.scary_knocker.scare": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/mob/scary_knocker/idle/scare"
+    ]
+  },
+  "mob.scary_knocker.death": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/mob/scary_knocker/idle/scare"
+    ]
+  },
+  "mob.scary_knocker.hit": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/mob/scary_knocker/idle/idle1",
+      "sounds/mob/scary_knocker/idle/idle2",
+      "sounds/mob/scary_knocker/idle/idle3"
+    ]
+  },
+  "mob.scary_sounddoor.say": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "load_on_low_memory": true,
+        "name": "sounds/mob/scary_sounddoor/say/say1"
+      },
+      "sounds/mob/scary_sounddoor/say/say2",
+      "sounds/mob/scary_sounddoor/say/say3",
+      "sounds/mob/scary_sounddoor/say/say4"
+    ]
+  },
+  "mob.scary_soundwindow.say": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/mob/scary_sounddoor/say/say5",
+      "sounds/mob/scary_sounddoor/say/say6"
+    ]
+  },
+  "mob.scary_knocker.whistle": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/mob/scary_knocker/idle/whistle1",
+      "sounds/mob/scary_knocker/idle/whistle2",
+      "sounds/mob/scary_knocker/idle/whistle3",
+      "sounds/mob/scary_knocker/idle/whistle4",
+      "sounds/mob/scary_knocker/idle/whistle5",
+      "sounds/mob/scary_knocker/idle/whistle6",
+      "sounds/mob/scary_knocker/idle/whistle7",
+      "sounds/mob/scary_knocker/idle/whistle8"
+    ]
+  }
+}
